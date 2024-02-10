@@ -1,0 +1,32 @@
+.myw {
+    display: flex;
+    justify-content: center;
+    margin-top: 68px;
+}
+.myw-heading {
+    color: #2E2C34;
+    font-size: 67px;
+    line-height: 66.745px; /* 99.619% */
+}
+.myw-text {
+    margin-top: 27px;
+    color: #2E2C34;
+    font-size: 20px;
+    line-height: 24.823px; /* 124.113% */
+}
+.myw-offers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 16px;
+    margin: 48px 0 73px;
+    padding: 0 15px;
+}
+
+@media (max-width: 1063px) {
+    .myw-heading {
+        text-align: center;
+        font-size: 52px;
+    }
+    .myw-text {text-align: center;}
+}

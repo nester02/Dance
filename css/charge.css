@@ -1,0 +1,63 @@
+.charge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #2E2C34;
+    background: #fff;
+}
+.charge-container {
+    max-width: 1046px;
+    padding: 68px 0 74px;
+    margin: 0 15px;
+}
+.charge-row {
+    display: flex;
+}
+.charge-text-heading {
+    width: 248px;
+    font-size: 65px;
+    line-height: 66.745px; /* 102.685% */
+}
+.charge-text-text {
+    margin: 27px 0 20px;
+    max-width: 252px;
+    font-size: 21px;
+    line-height: 24.823px; /* 118.202% */
+}
+.pros-avantage {
+    margin-top: 16px;
+    padding: 7px 16px;
+    display: flex;
+    align-items: center;
+    height: 37px;
+    border-radius: 40px;
+    background: #F5F5F7;
+}
+.pros-avantage img {
+    width: 16px;
+    height: 16px;
+    margin-right: 16px;
+}
+.charge-offers {
+    margin-left: 68px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 16px;
+}
+.charge-offer {
+    border-radius: 16px;
+    background: #F5F5F7;
+    padding-bottom: 32px;
+}
+@media (max-width: 679px) {
+    .charge-row {
+        flex-wrap: wrap;
+    }
+    .charge-offers {
+        margin-left: 0;
+    }
+    .charge-offer {
+        margin-top: 35px;
+    }
+}

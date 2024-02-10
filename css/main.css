@@ -1,0 +1,111 @@
+@import "./reset.css";
+.none {
+    display: none !important;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2E2C34;
+    background-color: #F5F5F7;
+}
+.container {
+    max-width: 1046px;
+    padding: 0 15px;
+    margin: 68px auto 0 88px;
+}
+.button {
+    height: 42px;
+    padding: 12px 51px;
+    border-radius: 999px;
+    background: #7140EB;
+}
+.button-fat {
+    padding: 20px 54px 23px;
+    max-width: 189px;
+    border-radius: 999px;
+    background: #7140EB;
+}
+.button-fat a {
+    color: #FFF;
+    font-size: 18px;
+    line-height: 18.343px; /* 101.904% */
+}
+.button:hover,
+.button-fat:hover {
+    background: rgba(113, 64, 235, 0.63);
+}
+.button-transparent {
+    padding: 12px 37px 12px 39px;
+    border-radius: 999px;
+    border: 1px solid #2E2C34;
+    max-width: 182px;
+}
+.button-transparent-fat {
+    padding: 22px 39px 22px 38px;
+    border-radius: 999px;
+    border: 1px solid #2E2C34;
+    max-width: 180px;
+}
+.button-transparent a,
+.button-transparent-fat a {
+    color: #2E2C34;
+}
+.button-transparent:hover,
+.button-transparent-fat:hover {
+    background: rgba(113, 64, 235, 0.63);
+}
+/*-----OFFER-----*/
+.offer {
+    height: 517px;
+    width: 334px;
+    border-radius: 16px;
+    background: #FFF;
+    text-align: center;
+}
+.offer-container {
+    margin: 0 24px;
+}
+.offer-img {
+    margin: 67px auto 2px;
+}
+.offer-text {
+    display: flex;
+    flex-direction: column;
+}
+.offer-img-desc {
+    display: flex;
+    justify-content: center;
+}
+.desc-price {
+    display: flex;
+    gap: 4px;
+}
+.desc-season {
+    margin-left: 16px;
+    height: 24px;
+    padding: 1px 10px;
+    border-radius: 20px;
+    background: #F1EEF8;
+    color: #7140EB;
+    font-size: 16px;
+    line-height: 24px; /* 150% */
+}
+.offer-product-name {
+    text-align: left;
+    margin-top: 38px;
+    color: #49464F;
+    font-size: 29px;
+    line-height: 34.423px; /* 118.698% */
+}
+.offer-product-type {
+    text-align: left;
+    margin-bottom: 11px;
+    color: #49464F;
+    font-size: 18px;
+    line-height: 21.6px; /* 120% */
+}
+
+@media (max-width: 599px) {
+    .container {
+        margin: 40px 10% 0;
+    }
+}
